@@ -15,8 +15,9 @@ it or add a new one since a default bridge network is created
 automatically along with the docker compose command.
 
 # Running The Containers
-Make sure docker is installed on your system, then simply 
-execute the run.sh script located at the root of the project 
-directory. It should run docker compose and have the containers, 
-network and volume up and running. If you get permission issues,
-execute the script as super user.
+Make sure that docker and docker-compose are installed on your 
+system and that the docker daemon is running, then simply execute 
+the run.sh script located at the root of the project directory.
+It should run docker compose and have the containers, network and
+volume up and running. If you get permission issues, execute the
+script as super user.
