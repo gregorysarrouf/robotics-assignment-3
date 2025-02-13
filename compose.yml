@@ -1,0 +1,13 @@
+services:
+  producer:
+    build: ./producer
+    depends_on:
+      - consumer
+
+  consumer:
+    build: ./consumer
+    volumes: 
+      - data_volume:/data # Mount volume to /data
+
+volumes:
+  data_volume:
